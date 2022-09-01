@@ -251,6 +251,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8629936814535429768}
     m_Modifications:
+    - target: {fileID: 2828976664528711845, guid: 614f8c0068ae73e42924005c8b305ed3,
+        type: 3}
+      propertyPath: zombieHitEffect
+      value: 
+      objectReference: {fileID: 5801668810319198155, guid: bc751f93b336a57448495b739efdeb53,
+        type: 3}
+    - target: {fileID: 3278916413011259434, guid: 614f8c0068ae73e42924005c8b305ed3,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4693745250028060777, guid: 614f8c0068ae73e42924005c8b305ed3,
         type: 3}
       propertyPath: m_RootOrder
@@ -311,27 +322,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: AssaultRifle4_01
       objectReference: {fileID: 0}
+    - target: {fileID: 7823082418235537382, guid: 614f8c0068ae73e42924005c8b305ed3,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823556218618288966, guid: 614f8c0068ae73e42924005c8b305ed3,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 614f8c0068ae73e42924005c8b305ed3, type: 3}
---- !u!1 &4693745250659749808 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4693745250028362825, guid: 614f8c0068ae73e42924005c8b305ed3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1843287033}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1760242874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4693745250659749808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7442a770c2ce18544bd50c150de86263, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  range: 100
 --- !u!4 &4693745250660242320 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4693745250028060777, guid: 614f8c0068ae73e42924005c8b305ed3,
